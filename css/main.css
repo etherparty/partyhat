@@ -4,6 +4,7 @@
    ========================================================================== */
 
 body {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
   font-family: 'Open Sans', sans-serif;
   color: #333;
   font-weight: 400;
@@ -43,8 +44,9 @@ li {
    ========================================================================== */
 
 .hero-unit {
-  background: url(../img/bg.jpg) center center no-repeat fixed;
   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   padding: 3em 0;
   position: relative;
@@ -52,7 +54,7 @@ li {
 }
 
 .overlay {
-  position: absolute;
+  position: fixed;
   width: 100%;
   min-height: 100%;
   background: rgba(27, 32, 38, 0.5);
@@ -325,9 +327,14 @@ textarea[class="form-control"] { padding: 0.75em 12px; }
    footer 
    ========================================================================== */
    
+footer {
+color:"white";
+}
+
 .site-footer {
   padding: 4.5em 0;
   background: #1b1d20;
+  color: "white"
 }
 
 .social-footer {
